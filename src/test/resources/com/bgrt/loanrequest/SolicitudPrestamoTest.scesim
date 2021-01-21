@@ -192,7 +192,7 @@
               <name>1611237378015</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;Apto para menores de edad&quot;</rawValue>
+            <rawValue class="string">Apto para menores de edad</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
