@@ -53,7 +53,7 @@
           <factAlias>Solicitante</factAlias>
           <expressionAlias>edad</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>319.49999999999994</columnWidth>
+          <columnWidth>206.24999999999994</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>Prestamo</factAlias>
           <expressionAlias>cantidad</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>219.76560788608975</columnWidth>
+          <columnWidth>141.86746987951804</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -99,7 +99,7 @@
           <factAlias>Prestamo</factAlias>
           <expressionAlias>aprobado</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>419.2343921139103</columnWidth>
+          <columnWidth>270.632530120482</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -122,7 +122,7 @@
           <factAlias>Prestamo</factAlias>
           <expressionAlias>motivo</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>319.49999999999994</columnWidth>
+          <columnWidth>206.24999999999994</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -239,7 +239,7 @@
   <settings>
     <dmoSession>default-stateless-ksession</dmoSession>
     <type>RULE</type>
-    <skipFromBuild>false</skipFromBuild>
+    <skipFromBuild>true</skipFromBuild>
     <stateless>true</stateless>
   </settings>
   <imports>
