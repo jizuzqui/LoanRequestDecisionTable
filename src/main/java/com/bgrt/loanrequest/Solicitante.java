@@ -6,12 +6,33 @@ package com.bgrt.loanrequest;
 
 public class Solicitante implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Solicitante() {
-    }
+	private java.lang.Integer edad;
+	private java.lang.Integer scoring;
 
+	public Solicitante() {
+	}
 
+	public java.lang.Integer getEdad() {
+		return this.edad;
+	}
 
+	public void setEdad(java.lang.Integer edad) {
+		this.edad = edad;
+	}
+
+	public java.lang.Integer getScoring() {
+		return this.scoring;
+	}
+
+	public void setScoring(java.lang.Integer scoring) {
+		this.scoring = scoring;
+	}
+
+	public Solicitante(java.lang.Integer edad, java.lang.Integer scoring) {
+		this.edad = edad;
+		this.scoring = scoring;
+	}
 
 }
