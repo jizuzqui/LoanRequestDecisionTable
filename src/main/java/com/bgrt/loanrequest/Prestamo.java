@@ -6,12 +6,44 @@ package com.bgrt.loanrequest;
 
 public class Prestamo implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Prestamo() {
-    }
+	private java.lang.Integer cantidad;
+	private java.lang.Boolean aprobado;
+	private java.lang.String motivo;
 
+	public Prestamo() {
+	}
 
+	public java.lang.Integer getCantidad() {
+		return this.cantidad;
+	}
 
+	public void setCantidad(java.lang.Integer cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	public java.lang.Boolean getAprobado() {
+		return this.aprobado;
+	}
+
+	public void setAprobado(java.lang.Boolean aprobado) {
+		this.aprobado = aprobado;
+	}
+
+	public java.lang.String getMotivo() {
+		return this.motivo;
+	}
+
+	public void setMotivo(java.lang.String motivo) {
+		this.motivo = motivo;
+	}
+
+	public Prestamo(java.lang.Integer cantidad, java.lang.Boolean aprobado,
+			java.lang.String motivo) {
+		this.cantidad = cantidad;
+		this.aprobado = aprobado;
+		this.motivo = motivo;
+	}
 
 }
