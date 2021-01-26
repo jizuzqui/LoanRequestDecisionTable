@@ -15,8 +15,8 @@ spec:
   securityContext:
     runAsUser: 1001
   containers:
-  - name: curl
-    image: curlimages/curl:7.74.0
+  - name: process
+    image: globaldevtools.bbva.com:5000/hub/bpmaas/jenkins/compile-process:latest
     command:
     - cat
     tty: true
@@ -27,6 +27,8 @@ spec:
       limits: 
         cpu: '1'
         memory: '1024Mi'
+  imagePullSecrets:
+  - name: registrypullsecret
 """
 }
     }
