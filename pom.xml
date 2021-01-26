@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.bbva.ether.rules</groupId>
-    <artifactId>rules-architecture-bom-parent</artifactId>
+    <groupId>com.bbva.ether.bpmaas</groupId>
+    <artifactId>ether-bpmaas-architecture-bom-parent</artifactId>
     <version>LATEST</version>
   </parent>
   <groupId>com.bgrt</groupId>
