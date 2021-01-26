@@ -8,6 +8,11 @@
   <packaging>kjar</packaging>
   <name>loanrequest</name>
   <description>loanrequest</description>
+  <parent>
+    <groupId>com.bbva.ether.rules</groupId>
+    <artifactId>rules-architecture-bom-parent</artifactId>
+    <version>LATEST</version>
+  </parent>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
