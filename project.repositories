@@ -11,17 +11,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>artifactory-global-mirror</id>
-        <url>https://globaldevtools.bbva.com/artifactory-api/bpm-global-libs-snapshot-local</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>local</id>
+        <url>/home/ec2-user/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/ec2-user/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>artifactory-global-mirror</id>
+        <url>https://globaldevtools.bbva.com/artifactory-api/bpm-global-libs-snapshot-local</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
   </repositories>
