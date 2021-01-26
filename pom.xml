@@ -7,7 +7,7 @@
   <version>1.2.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>loanrequest</name>
-  <description></description>
+  <description>loanrequest</description>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
